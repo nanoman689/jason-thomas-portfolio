@@ -1,0 +1,105 @@
+/* main body */
+/* set everything to zer0 */
+/*
+========================================================
+ This pattern is downloaded from www.subtlepatterns.com 
+ If you need more, that's where to get'em.
+ ========================================================
+ */
+
+ 
+html, body, header { 
+  background-image: url("../images/swirl_pattern_jmt.png");           
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('http://i.imgur.com/N300Sx2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #D8D8D8;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section,
+.projects {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: 5px 25px;
+    background-color: #D8D8D8;
+    color: #848484;
+}
+
+.location-section h1 {
+  display: inline-block;
+}
+
+.fa-location-arrow {
+  vertical-align: middle;
+  color:#000;
+  padding: 5px;
+}
+
+.social > li {
+    display: inline-block;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2,
+.projects > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  border-radius: 5px;
+  background-color: #D8D8D8;
+  text-color: #848484;
+}
